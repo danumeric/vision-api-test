@@ -1,7 +1,7 @@
 require('dotenv').config()
 const request = require('request');
-
 let fs = require('fs');
+
 let file = fs.readFileSync('./resourses/2.jpg');
 let encodedImg = Buffer.from(file).toString('base64');
 
